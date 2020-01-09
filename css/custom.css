@@ -27,3 +27,13 @@
     font-weight: 400;
     color: #2C2C2C;
 }
+
+.testimonial_area .owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}
+.thumb img{
+  text-align: center;
+  width:10% !important;
+
+}
