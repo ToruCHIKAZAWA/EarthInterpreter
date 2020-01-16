@@ -1,359 +1,583 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="img/favicon.png" type="image/png" />
     <title>Earth Interpreter</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-</head>
-
-<body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-    <!-- header-start -->
-    <header>
-        <div class="header-area ">
-            <div class="header-top_area d-none d-lg-block">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="logo">
-                                <a href="index.html">Earth Interpreter</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-md-8">
-                            <div class="header_right d-flex align-items-center">
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-12 d-block d-lg-none">
-                                <div class="logo">
-                                    <a href="index.html">Earth Interpreter</a>
-                                </div>
-                            </div>
-                            <div class="col-xl-9 col-lg-9">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a  href="index.html">home</a></li>
-                                            <li><a  href="index.html">Services</a></li>
-                                            <li><a href="index.html">about</a></li>
-                                            <li><a href="index.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+  <body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area">
+      <div class="main_menu">
+        <div class="search_input" id="search_input_box">
+          <div class="container">
+            <form class="d-flex justify-content-between" method="" action="">
+              <input
+                type="text"
+                class="form-control"
+                id="search_input"
+                placeholder="Search Here"
+              />
+              <button type="submit" class="btn"></button>
+              <span
+                class="ti-close"
+                id="close_search"
+                title="Close Search"
+              ></span>
+            </form>
+          </div>
         </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <h2 class="navbar-brand logo_h" href="index.html">
+             <img class="contact" src="img/icon/ei64p.png" /><font color="#002347">Earth Interpreter</font>
+           </h2>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#service">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
-    <!-- header-end -->
+    <!--================ End Header Menu Area =================-->
 
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="single_slider  d-flex align-items-center slider_bg_1">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="slider_text text-center justify-content-center">
-                            <p>For Personal & Business</p>
-                            <h3>Global Translation Service</h3>
-                                <a class="boxed-btn3" href="index.html">CONTACT US</a>
-                        </div>
-                    </div>
+    <!--================ Start Home Banner Area =================-->
+    <section class="home_banner_area" id="home">
+      <div class="banner_inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="banner_content text-center">
+                <p class="text-uppercase">
+                  for all over the world
+                </p>
+                <h2 class="text-uppercase mt-4 mb-5">
+                  Creative Translation
+                </h2>
+                <div>
+                  <a href="#feature" class="primary-btn2 mb-3 mb-sm-0">learn more</a>
+                  <a href="#contact" class="primary-btn ml-sm-3 ml-0">Contact Us</a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- slider_area_end -->
-
-    <div class="transportaion_area">
-      <div class="section_title mb-50 text-center">
-          <h3>
-              Services We Offer
-          </h3>
       </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single_transport">
-                        <div class="icon">
-                            <img src="img/svg_icon/airplane.png" alt="">
-                        </div>
-                        <h3>Creative Translation</h3>
-                        <p>We translate Creatively.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single_transport">
-                        <div class="icon">
-                            <img src="img/svg_icon/live.png" alt="">
-                        </div>
-                        <h3>Correct Translation Errors</h3>
-                        <p>We translate Creatively.</p>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single_transport">
-                        <div class="icon">
-                            <img src="img/svg_icon/world.png" alt="">
-                        </div>
-                        <h3>Proofreading</h3>
-                        <p>We translate Creatively.</p>
-                    </div>
-                </div>
+    </section>
+    <!--================ End Home Banner Area =================-->
+
+    <!--================ Start Feature Area =================-->
+    <section class="feature_area section_gap_top" id="feature">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+              <h2 class="mb-3">Awesome Feature</h2>
+
             </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single_feature">
+              <div class="icon"><img class="flaticon-student" src="img/icon/pen64.png" /></div>
+              <div class="desc">
+                <h4 class="mt-3 mb-2">Creative Translation</h4>
+                <p>
+                  One make creepeth, man bearing theira firmament won't great
+                  heaven
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="single_feature">
+              <div class="icon"><img class="flaticon-student" src="img/icon/crowd64.png" /></div>
+              <div class="desc">
+                <h4 class="mt-3 mb-2">100% Native Staff</h4>
+                <p>
+                  One make creepeth, man bearing theira firmament won't great
+                  heaven
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="single_feature">
+              <div class="icon"><img class="flaticon-student" src="img/icon/lighton64.png" /></div>
+              <div class="desc">
+                <h4 class="mt-3 mb-2">Inexpensive / Quick / High Quality</h4>
+                <p>
+                  One make creepeth, man bearing theira firmament won't great
+                  heaven
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Feature Area =================-->
+
+    <!--================ Start Popular Courses Area =================-->
+    <div class="popular_courses" id="service">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+              <h2 class="mb-3">Our Service is..</h2>
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- single course -->
+          <div class="col-lg-12">
+            <div class="owl-carousel active_course">
+              <div class="single_course">
+                <div class="course_head">
+                  <img class="img-fluid" src="img/service/web.jpg" alt="" />
+                </div>
+                <div class="course_content">
+
+                  <span class="tag mb-4 d-inline-block">design</span>
+                  <h4 class="mb-3">
+                    <a>Web Advertising Production</a>
+                  </h4>
+                  <p>
+                    One make creepeth man bearing their one firmament won't fowl
+                    meat over sea
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="single_course">
+                <div class="course_head">
+                  <img class="img-fluid" src="img/service/fix.jpg" alt="" />
+                </div>
+                <div class="course_content">
+
+                  <span class="tag mb-4 d-inline-block">design</span>
+                  <h4 class="mb-3">
+                    <a>Fix & Improvement of Translation</a>
+                  </h4>
+                  <p>
+                    One make creepeth man bearing their one firmament won't fowl
+                    meat over sea
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="single_course">
+                <div class="course_head">
+                  <img class="img-fluid" src="img/service/consultant.jpg" alt="" />
+                </div>
+                <div class="course_content">
+
+                  <span class="tag mb-4 d-inline-block">design</span>
+                  <h4 class="mb-3">
+                    <a>Consultant for Advertising</a>
+                  </h4>
+                  <p>
+                    One make creepeth man bearing their one firmament won't fowl
+                    meat over sea
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <!--================ End Popular Courses Area =================-->
 
-
-    <!-- contact_action_area  -->
-    <div class="contact_action_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-7 col-md-6">
-                    <div class="action_heading">
-                        <h3>100% Native Speakers</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                            placing drawing.</p>
-                    </div>
-                </div>
+    <!--================ Start Registration Area =================-->
+    <div class="section_gap registration_area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="row clock_sec clockdiv" id="clockdiv">
+              <div class="col-lg-12">
+                <h1 class="mb-3">Mission</h1>
+                <p>
+                  There is a moment in the life of any aspiring astronomer that
+                  it is time to buy that first telescope. It’s exciting to think
+                  about setting up your own viewing station.
+                </p>
+              </div>
 
             </div>
+          </div>
+
         </div>
+      </div>
     </div>
-    <!-- /contact_action_area  -->
-    <!-- chose_area  -->
-    <div class="chose_area ">
-        <div class="container">
-            <div class="features_main_wrap">
-                <div class="row  align-items-center">
-                    <div class="col-xl-5 col-lg-5 col-md-6">
-                        <div class="about_image">
-                            <img src="img/about/about.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="features_info">
-                            <h3>Why Choose Us?</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
-                            </p>
-                            <ul>
-                                <li> 100% Native Speakers </li>
-                                <li> Creative Translation </li>
-                                <li> High Quality and Lowest Cost</li>
-                            </ul>
+    <!--================ End Registration Area =================-->
 
-                        </div>
-                    </div>
-                </div>
+    <!--================ Start Trainers Area =================-->
+    <section class="trainer_area section_gap_top" id="team">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+              <h2 class="mb-3">Our Expert Team</h2>
+
             </div>
+          </div>
         </div>
+        <div class="row justify-content-center d-flex align-items-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Toru CHIKAZAWA</h4>
+              <p class="designation"><font color="#fdc632"><b>Chief Executive Officer</b></font></p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Kanta KUMAGAI</h4>
+              <p class="designation"><font color="#fdc632"><b>Chief Operating Officer</b></font></p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Hirofumi YAMADA</h4>
+              <p class="designation"><font color="#fdc632"><b>Sales Department Manager</b></font></p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Marirui</h4>
+              <p class="designation"><font color="#fdc632"><b>Animation Creator</b></font></p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Trainers Area =================-->
+
+    <!--================ Start Events Area =================-->
+    <div class="events_area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+              <h2 class="mb-3 text-white">Native Staff</h2>
+
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center d-flex align-items-center">
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Mated Nithan</h4>
+              <img class="native" src="img/flags/United-States-of-America.png" />
+              <p class="designation">U.S.A.</p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Cao Yingdan</h4>
+              <img class="native" src="img/flags/China.png" />
+              <p class="designation">China</p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Owen</h4>
+              <img class="native" src="img/flags/France.png" />
+              <p class="designation">France</p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Y. Cho</h4>
+              <img class="native" src="img/flags/Korea.png" />
+              <p class="designation">Korea</p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Onja Daou</h4>
+              <img class="native" src="img/flags/Madagascar.png" />
+              <p class="designation">Madagascar</p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12 single-trainer">
+            <div class="thumb d-flex justify-content-sm-center">
+              <img class="img-fluid" src="img/team/toru.jpeg" alt="" />
+            </div>
+            <div class="meta-text text-sm-center">
+              <h4>Mated Nithan</h4>
+              <img class="native" src="img/flags/United-States-of-America.png" />
+              <p class="designation">U.S.A.</p>
+              <div class="mb-4">
+                <p>
+                  If you are looking at blank cassettes on the web, you may be
+                  very confused at the.
+                </p>
+              </div>
+              <div class="align-items-center justify-content-center d-flex">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--/ chose_area  -->
+    <!--================ End Events Area =================-->
 
+    <!--================ Start Testimonial Area =================-->
+    <div class="testimonial_area section_gap" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+              <h2 class="mb-3">Contact</h2>
 
-    <!-- testimonial_area  -->
-    <div class="testimonial_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7">
-                    <div class="testmonial_active owl-carousel">
-                        <div class="single_carousel">
-                            <div class="single_testmonial text-center">
-
-                                <div class="testmonial_author">
-                                    <div class="thumb">
-                                        <img src="img/case/" alt="">
-                                    </div>
-                                    <h3>Toru CHIKAZAWA</h3>
-                                    <span>Business Owner</span>
-                                </div>
-                                <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin.
-                                    Pellentesque id dolor tempor sapien feugiat ultrices.</p>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="single_testmonial text-center">
-
-                                <div class="testmonial_author">
-                                    <div class="thumb">
-                                        <img src="img/case/" alt="">
-                                    </div>
-                                    <h3>Kanta KUMAGAI</h3>
-                                    <span>Business Owner</span>
-                                </div>
-                                <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin.
-                                    Pellentesque id dolor tempor sapien feugiat ultrices.</p>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="single_testmonial text-center">
-
-                                <div class="testmonial_author">
-                                    <div class="thumb">
-                                        <img src="img/case/" alt="">
-                                    </div>
-                                    <h3>Cao Yingdan</h3>
-                                    <span>Translate Staff</span>
-                                </div>
-                                <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin.
-                                    Pellentesque id dolor tempor sapien feugiat ultrices.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+          </div>
         </div>
+        <div class="contact_space">
+        <h3><img class="contact" src="img/icon/location48.png" />Location</h3><p>Sapporo, Hokkaido, JAPAN</p>
+        <h3><img class="contact" src="img/icon/mail48.png" />Email</h3><p>earth-interpreter@gmail.com</p>
+        </div>
+      </div>
     </div>
-    <!-- /testimonial_area  -->
+    <!--================ End Testimonial Area =================-->
 
-    <!-- contact_location  -->
-    <div class="contact_location">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                    <div class="location_left">
-                        <div class="logo">
-                            <a href="index.html">
-                                Earth Interpreter
-                            </a>
-                        </div>
-                        <ul>
-                            <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                            <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
-                            <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
-                            <li><a href="#"> <i class="fa fa-youtube"></i> </a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="single_location">
-                        <h3> <img src="img/icon/address.svg" alt=""> Location</h3>
-                        <p>Sapporo, Hokkaido, JAPAN</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-3">
-                    <div class="single_location">
-                        <h3> <img src="img/icon/support.svg" alt=""> Contact</h3>
-                        <p>earth-interpreter@gmail.com</p>
-                    </div>
-                </div>
-            </div>
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+      <div class="container">
+
+        <div class="row footer-bottom d-flex justify-content-between">
+          <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+
+Copyright &copy;2020 <font color="#fdc632">Earth Interpreter</font> All rights reserved
+
+          </p>
+          <div class="col-lg-4 col-sm-12 footer-social">
+            <a href="#"><i class="ti-facebook"></i></a>
+            <a href="#"><i class="ti-twitter"></i></a>
+            <a href="#"><i class="ti-dribbble"></i></a>
+            <a href="#"><i class="ti-linkedin"></i></a>
+          </div>
         </div>
-    </div>
-
-    <!--/ contact_location  -->
-
-
-    <!-- footer start -->
-    <footer class="footer">
-
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center">
-                            Copyright &copy;2020 Earth Interpreter All rights reserved
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </footer>
-    <!--/ footer end  -->
-<!-- Button trigger modal -->
+    <!--================ End footer Area  =================-->
 
-  <!-- Modal -->
-  <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="serch_form">
-            <input type="text" placeholder="search" >
-            <button type="submit">search</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <!-- <script src="js/gijgo.min.js"></script> -->
-    <script src="js/slick.min.js"></script>
-
-
-
-    <!--contact js-->
-    <script src="js/contact.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/owl-carousel-thumb.min.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
-
-
-    <script src="js/main.js"></script>
-
-
-
-
-</body>
-
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
 </html>

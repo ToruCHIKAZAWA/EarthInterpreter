@@ -1,39 +1,40 @@
-.logo{
-  font-size: 2em;
-  font-weight: 800;
-  font-family: "Poppins", sans-serif;
+.section_gap {
+    padding-top: 30px !important;
+    padding-right: 0px !important;
+    padding-bottom: 30px !important;
+    padding-left: 0px !important;
+}
+.navbar-light .navbar-brand {
+    color: #002347;
+    font-size: 2em;
+}
+.icon img{
+  margin-top: -30px;
 
 }
-.logo a{
-  color: #FF3414 !important;
-}
-
-.transportaion_area {
-    padding: 80px 0 90px 0;
-}
-
-.transportaion_area .single_transport .icon {
-    height: 50px;
-    text-align: center;
-}
-.transportaion_area .single_transport {
-    padding-right: 65px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-.chose_area .features_info h3 {
-    font-size: 46px;
-    line-height: 60px;
-    font-weight: 400;
-    color: #2C2C2C;
-}
-
-.testimonial_area .owl-carousel .owl-item img {
-    display: block;
-    width: auto;
-}
-.thumb img{
+.contact_space{
   text-align: center;
-  width:10% !important;
+}
+.contact_space p {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+.events_area {
+    padding: 60px 0 100px !important;
+}
+.native {
+    width: 3em;
+    margin-top: 0.8em;
+}
 
+
+@media (max-width: 991px){
+.header_area .navbar {
+    background: white !important;
+}
+}
+@media (max-width: 991px){
+.header_area .navbar .nav .nav-item .nav-link {
+    color: #002347 !important;
+}
 }
