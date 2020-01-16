@@ -579,5 +579,13 @@ Copyright &copy;2020 <font color="#fdc632">Earth Interpreter</font> All rights r
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
     <script src="js/gmaps.min.js"></script>
     <script src="js/theme.js"></script>
+
+    <script>
+     $('.navbar-nav>li>a , .dropdown-menu>a').on('click', function(){
+         if(this.id != 'navbarDropdown'){
+           $('.navbar-collapse').collapse('hide');
+         }
+     });
+    </script>
   </body>
 </html>

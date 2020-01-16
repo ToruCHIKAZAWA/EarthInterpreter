@@ -38,3 +38,8 @@
     color: #002347 !important;
 }
 }
+@media (max-width: 991px){
+.single-trainer .meta-text {
+    text-align: center !important;
+}
+}
